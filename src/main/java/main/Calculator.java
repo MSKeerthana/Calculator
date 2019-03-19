@@ -10,7 +10,7 @@ public class Calculator {
         num1 = inp.nextInt();
         num2 = inp.nextInt();
         
-        System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
+        System.out.println("Enter your selection: 1) Addition, 2) substraction 3) Multiplication and 4) division:");
         int choose;
         choose = inp.nextInt();
         switch (choose){
@@ -27,13 +27,8 @@ public class Calculator {
             System.out.println(div( num1,num2));
             break;
             default:
-                System.out.println("Illigal Operation");
-
-
+                System.out.println("Illegal Operation");
         }
-
-
-
     }
     public static int add(int x, int y)
     {
