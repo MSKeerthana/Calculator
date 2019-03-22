@@ -10,10 +10,10 @@ public class Calculator {
         num1 = inp.nextInt();
         num2 = inp.nextInt();
         
-        System.out.println("Enter your selection: 1) Addition, 2) substraction 3) Multiplication and 4) division:");
-        int choose;
-        choose = inp.nextInt();
-        switch (choose){
+        System.out.println("Enter your selection: 1. Addition, 2. substraction 3. Multiplication and 4. division:");
+        int ch;
+        ch = inp.nextInt();
+        switch (ch){
         case 1:
             System.out.println(add( num1,num2));
             break;
