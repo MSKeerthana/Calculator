@@ -27,7 +27,7 @@ public class Calculator {
             System.out.println(div( num1,num2));
             break;
             default:
-                System.out.println("Illegal Operation");
+                System.out.println("Illegal");
         }
     }
     public static int add(int x, int y)
@@ -35,7 +35,7 @@ public class Calculator {
     	int result=0;
     	result = x+y;
     	
-        return result;
+        return x+y;
     }
     public static int sub(int x, int y)
     {
